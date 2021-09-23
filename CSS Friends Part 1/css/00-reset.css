@@ -20,7 +20,7 @@ span, article, footer, time, small {
 }
 
 ul {
-
+    list-style: none;
 }
 
 img {
@@ -38,10 +38,11 @@ textarea,
 button {
 
     -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
-button:after,
+button,
 input[type="submit"] {
 
-    content: "<"
+    cursor: pointer;
 }
